@@ -7,7 +7,7 @@ $profileColor:#9099a0;
 $skillsColor:#9099a0; 
 $linkColor:#66cc99;
 $boldColor:#4a4e51;
-$time:0.6s;
+$time:1.5s;
 
  
 @mixin breakpoint($point) {
@@ -65,6 +65,7 @@ a{color:$linkColor; text-decoration:none;}
   .name-wrapper {
     float:left;
     width:60%;
+    color:white;
   }
   h1 {
     font-size:2.5em;
